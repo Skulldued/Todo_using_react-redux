@@ -1,7 +1,6 @@
 import React from "react";
 import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
-import { useSelector } from "react-redux";
 const App = () => {
 
   

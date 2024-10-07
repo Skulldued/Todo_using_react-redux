@@ -12,6 +12,7 @@ const TodoList = () => {
           return (
             <TodoItems
               key={todoItem.id}
+              id={todoItem.id}
               text={todoItem.text}
               isCompleted={todoItem.completed}
             />
